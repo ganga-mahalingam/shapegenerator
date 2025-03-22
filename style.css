@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Quicksand:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Big Shoulders Stencil", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 1.2em;
+  font-style: normal;
+
+}
+#input{
+    /* background-repeat: no-repeat;*/
+    background-size: cover;
+    background-image:url("https://c4.wallpaperflare.com/wallpaper/41/676/54/triangle-wallpaper-preview.jpg") ; 
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:whitesmoke;
+
+
+}
+h1{
+    font-size: 4em;
+}
+p{
+    font-size: 2em;
+    margin: 10px;
+}
+#number{
+    width: 180px;
+    height: 45px;
+    font-size: 1em;
+    padding: 0px 10px;
+}
+#button{
+    width: 120px;
+    height: 40px;
+    font-size: 1.4em;
+    background-color:rgb(62, 97, 98);
+    color:blanchedalmond;
+}
+#button:hover{
+    background-color:rgba(41, 115, 140, 0.537);
+}
+.circle{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    color: rgb(58, 113, 161);
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: 10px;
+    text-align: center;
+    background-color: lavender;
+}
+
+.square{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    color:antiquewhite;
+    margin: 10px;
+    text-align: center;
+    height: 80px;
+    width: 80px;
+    background-color:lightseagreen;
+
+}
+.rectangle{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    color:azure;
+    margin: 10px;
+    text-align: center;
+    height: 80px;
+    width: 140px;
+    background-color:skyblue;
+}
+.oval{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    color: rgb(58, 113, 161);
+    height: 80px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 10px;
+    text-align: center;
+    background-color: lavender;
+}
+#box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
